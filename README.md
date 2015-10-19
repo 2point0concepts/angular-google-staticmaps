@@ -27,7 +27,8 @@ markers. Markers have the following format:
 $scope.markers = [{
     color: 'blue',
     label: 'S',
-    coords: [lat, lon]
+    coords: [lat, lon],
+    icon: 'http://imageurl...'
 }];
 ```
 
