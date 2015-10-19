@@ -1,5 +1,5 @@
 /*!
- * angular-google-staticmaps 0.0.1
+ * angular-google-staticmaps 0.3.0
  * Pascal Hartig, weluse GmbH, http://weluse.de/
  * License: MIT
  */
@@ -9,7 +9,7 @@
   angular.module('wu.staticGmap', [])
     .controller('StaticGmapCtrl', function () {
       var BASE_URL = '//maps.googleapis.com/maps/api/staticmap?';
-      var STYLE_ATTRIBUTES = ['color', 'label', 'size'];
+      var STYLE_ATTRIBUTES = ['color', 'label', 'size', 'icon'];
 
       this.makeMarkerStrings = function makeMarkerStrings(markers) {
         return markers.map(function (marker) {
